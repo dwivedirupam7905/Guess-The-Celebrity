@@ -1,17 +1,17 @@
 # Guess-The-Celebrity
 Built an android app which randomly displays the pictures of famous celebrities to the user by fetching the data from a URL through the Internet and asks to choose the correct answer from the given 4 options and tells whether it is correct or not and also tells the right answer on choosing the wrong option and the question keeps changing after every click.
 
-Tools and Tech Stack Used:
+## Tools and Tech Stack Used:
 Java, Android studio, scrapping, Async task viewer etc.
 
-Challenges:
-Connect to celebrites URL ( https://www.imdb.com/list/ls052283250/ ), download info from it, process that info and display relevant info in the UI, that is, names and pictures of the celebrities.
+## Challenges:
+Connect to celebrites [URL](https://www.imdb.com/list/ls052283250/), download info from it, process that info and display relevant info in the UI, that is, names and pictures of the celebrities.
 
-Async Task:
+## Async Task:
 It is a key tool used in this project. Async Task is an abstract class provided by Android which gives us the liberty to perform heavy tasks in the background and keep the UI thread light thus making the application more responsive. Android application runs on a single thread when launched. Heavy background processes can crash our app or activity if runs on the main thread i.e. UI thread. So, we use Async Task for that.
 By passing the celebrities URL as an string argument to the execute() function of Async Task class, we can connect to weather API. execute() function is to start the background thread.
 
-Being an abstract class, Async Task contains two abstract functions doInBackground() and onPostExecute() which need to be implemented by overriding them.
+Being an abstract class, Async Task contains two abstract functions **doInBackground()** and **onPostExecute()** which need to be implemented by overriding them.
 
 i) doInBackground(): This method contains the code which needs to be executed in background. To notify that the background processing has been completed we just need to use the return statements.
 
