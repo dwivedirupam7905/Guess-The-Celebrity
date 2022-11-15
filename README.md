@@ -24,7 +24,7 @@ JSON:
 JSON stands for Javascript Object Notation. It is a light-weight data interchange format. It is the way in which data (or text) is formatted.
 Since JSON format is text only, it can easily be sent to and from a aserver. If we have data stored in a Javascript object then we can easily convert the object into JSON and then send to a server.
 
-SCREENSHOTS :-
+### SCREENSHOTS :-
 
 ![ScrShot1](https://user-images.githubusercontent.com/91591163/201874748-acea10ca-f8aa-41f9-a1d1-90be712425ee.jpg)
 ![ScrShot2](https://user-images.githubusercontent.com/91591163/201874851-30d81fb8-3888-40fc-bddb-38cd658f3e2e.jpg)
